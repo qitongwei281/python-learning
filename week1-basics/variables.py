@@ -7,3 +7,5 @@ s4 = r'''hello,
 Bob!'''
 
 print(n,f,s1,s2,s3,s4)
+s4 = n
+print(n,f,s1,s2,s3,s4)
