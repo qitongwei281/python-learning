@@ -22,3 +22,13 @@
 - raw string(r'')结尾不能带反斜杠，否则引号被吃掉报unterminated string literal
 ### 明天干啥
 - 练会教程末尾打印练习，继续学字符串和编码
+
+## 2026-10-21 字符串方法与引号
+### 学了啥
+- 引号嵌套：外层双引号，内部对话用单引号，或用\"转义；撇号'在双引号串里不用转义
+- 大小写：upper()全大写、lower()全小写、title()每个词首字母大写，方法必须带括号()，不带只打印方法地址
+- f-string：f"{变量}文字"直接拼接变量
+- 去空格：lstrip()去左、rstrip()去右、strip()两边都去
+- removesuffix('.txt')去后缀、removeprefix()去前缀，返回新字符串，要print或接住，原变量不变
+### 卡在哪
+- 方法漏括号()打印出<built-in method...>地址；removesuffix单独一行不print就看不到结果；改完忘Ctrl+S运行的是旧文件
